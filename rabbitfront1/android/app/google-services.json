@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "414446186934",
+    "project_id": "rabbitcard-4ecbd",
+    "storage_bucket": "rabbitcard-4ecbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414446186934:android:61749f812c2bd259009117",
+        "android_client_info": {
+          "package_name": "com.freeformagency.rabbitcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414446186934-q24hqs5dgi61ppgmmo64t1bio4e0u514.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn1RXF-MoUbqF74hOGkdK-wtdkIqXGVww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414446186934-q24hqs5dgi61ppgmmo64t1bio4e0u514.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "414446186934-rtfem8snjjkg8i6g4tf425tb4sppk0cp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.freeformagency.rabbitcards"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+import { useNavigation } from '@react-navigation/native';
+import LottieView from 'lottie-react-native';
+import React, { useEffect } from 'react';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { connect, useDispatch } from 'react-redux';
+import { Fonts } from '../common/Fonts';
+import { BackButton, Button } from '../components/Button';
+import { UnderlineIcon } from '../components/icons';
+import { clearSignUpError } from '../store/redux/auth/actions';
+import { h, w } from '../utils/scale';
+import { CommonColors, CommonStyles } from './style';
+
+const YouWin = ({ route }) => {
+  const { card } = route.params
+  let animation = React.createRef();
+
+  const navigation = useNavigation()
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    animation.current.play()
+  }, [])
+
+  useEffect(() => {
+    dispatch(clearSignUpError())
+  }, [])
+
+  const onSubmit = () => {
+    navigation.navigate('Purse', { card })
+  };
+  const onMyRaking = () => {
+    navigation.navigate("MyTournamentRanking", { card:card })
+  };
+  return (
+    <View style={CommonStyles.overflowContainer}>
+      <BackButton />
+      <SafeAreaView style={CommonStyles.container}>
+        <ScrollView style={CommonStyles.container}>
+          <View style={[CommonStyles.padding, CommonStyles.paddingT100]}>
+            <Text style={CommonStyles.title}>Congratulations!</Text>
+            <View style={styles.padding20}>
+              <UnderlineIcon />
+            </View>
+            <View style={styles.padding10}>
+              <View style={styles.textContainer}>
+                <LottieView
+                  ref={animation}
+                  autoPlay
+                  loop={true}
+                  style={{
+                    width: w(500),
+                    height: h(500)
+                  }}
+                  source={require('../assets/lottie/win.json')}
+                />
+                <Text style={CommonStyles.title}>You Are A Winner</Text>
+                <Button title="Tournament Ranking" onPress={() => onMyRaking()} backgroundColor={CommonColors.Green} style={{ width: '100%' ,height:70, marginTop:20,}} />
+                <Button title="Collect your rabbit purse" onPress={() => onSubmit()} backgroundColor={CommonColors.Green} style={{ width: '100%' ,height:70,marginTop:30}} />
+
+              </View>
+            </View>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </View>
+  );
+}
+
+const mapStateToProps = (state) => ({
+  loading: state.auth.loading,
+  error: state.auth.error,
+});
+
+export default connect(mapStateToProps, {})(YouWin);
+
+const styles = StyleSheet.create({
+  padding20: {
+    paddingVertical: w(20)
+  },
+  section: {
+    paddingTop: w(100),
+    paddingHorizontal: w(60),
+  },
+  textContainer: {
+    alignItems: 'center'
+  },
+  row: {
+    paddingTop: w(40),
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  root: {
+    padding: w(20),
+    minHeight: w(300)
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: w(30)
+  },
+  codeFiledRoot: {
+    marginTop: w(40),
+    width: w(300),
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  cellRoot: {
+    width: w(30),
+    height: w(60),
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomColor: CommonColors.Green,
+    borderBottomWidth: 1,
+  },
+  cellText: {
+    color: CommonColors.Green,
+    fontSize: w(48),
+    fontFamily: Fonts.SourceSansRomanBold,
+    textAlign: 'center',
+  },
+  focusCell: {
+    borderBottomColor: '#007AFF',
+    borderBottomWidth: 2,
+  },
+});

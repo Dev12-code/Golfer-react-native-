@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>414446186934-fe2a33fdose865pl4gg662fkv0ck6h9c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.414446186934-fe2a33fdose865pl4gg662fkv0ck6h9c</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>414446186934-6lnn7r6mnoq37evdpu3h9bhdirmb5sri.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB3HgewYcWNon5vfcg02hnQVwWSSuPGE04</string>
+	<key>GCM_SENDER_ID</key>
+	<string>414446186934</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.freeformagency.rabbitcards</string>
+	<key>PROJECT_ID</key>
+	<string>rabbitcard-4ecbd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rabbitcard-4ecbd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:414446186934:ios:b07571ae47a1de51009117</string>
+</dict>
+</plist>

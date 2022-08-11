@@ -1,0 +1,129 @@
+------------------
+type 'A'
+------------------
+{
+  "notification": {
+    "title": "title A",
+    "body": "body A"
+  },
+  "data": {
+    "type": "A"
+  },
+  "to": "cLSnsuMmQbqmhndWFhQpXb:APA91bF862IX7Q5fi-nvr8uZ8ybgBXjTnXrvFtKqIwyuTnf3ybr0dhLkxjh0XNUOdhd9ZNA3n2p5EZM51-NCfro7wAupIGR7kZPj9Fp5QbDp-cbTjl0YA2-VZeRrXmnyU6czmtsw-CiY"
+}
+------------------
+type 'B'
+------------------
+{
+  "notification": {
+    "title": "title B",
+    "body": "body B"
+  },
+  "data": {
+    "type": "B"
+  },
+  "to": "cLSnsuMmQbqmhndWFhQpXb:APA91bF862IX7Q5fi-nvr8uZ8ybgBXjTnXrvFtKqIwyuTnf3ybr0dhLkxjh0XNUOdhd9ZNA3n2p5EZM51-NCfro7wAupIGR7kZPj9Fp5QbDp-cbTjl0YA2-VZeRrXmnyU6czmtsw-CiY"
+}
+------------------
+type 'C'
+------------------
+{
+  "notification": {
+    "title": "title C",
+    "body": "title C"
+  },
+  "data": {
+    "type": "C",
+    "card": {
+      "id": 350,
+      "t_id": 2021060,
+      "round": 3,
+      "status": "played",
+      "tournament": {
+        "t_id": 2021060,
+        "name": "TOUR Championship",
+        "season": 2021,
+        "played_year": 2021,
+        "sequence_number": 530,
+        "start_date": "2021-09-13T00:00:00.000Z",
+        "end_date": "2021-09-16T00:00:00.000Z",
+        "purse": 0,
+        "completed": true,
+        "rounds_official_money": 4,
+        "courses": [
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          },
+          {
+            "course_number": 688,
+            "name": "East Lake Golf Club",
+            "location": "Atlanta, Georgia",
+            "par_value": 70,
+            "total_yardage": 7346
+          }
+        ]
+      }
+    }
+  },
+  "to": "cLSnsuMmQbqmhndWFhQpXb:APA91bF862IX7Q5fi-nvr8uZ8ybgBXjTnXrvFtKqIwyuTnf3ybr0dhLkxjh0XNUOdhd9ZNA3n2p5EZM51-NCfro7wAupIGR7kZPj9Fp5QbDp-cbTjl0YA2-VZeRrXmnyU6czmtsw-CiY"
+}
